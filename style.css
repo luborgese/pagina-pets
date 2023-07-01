@@ -1,0 +1,124 @@
+body{
+    font-family: "Candara";
+    background-color: #8CB6CC;
+}
+
+header{
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+@media (max-width:768px){
+    header{
+        margin-bottom:20px;
+        height:200px;
+    }
+}
+
+h1{
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+@media (max-width:768px){
+    h1{
+        font-size: 36px;
+    }
+}
+
+section{
+    margin: 0 auto;
+    display: block;
+    max-width: 1024px;
+    width:100%;
+}
+
+.card{
+    display:inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    vertical-align: top;
+    max-height: 100%;
+}
+
+@media(max-width:768px){
+    .card{
+        display:block;
+        margin:20px 10px;
+    }
+}
+
+.card img{
+    border-radius: 100px;
+    display: block;
+    width:300px;
+    height:300px;
+}
+
+@media(max-width:768px){
+    .card img {
+        width:100px;
+        height: 100px;
+    }
+}
+
+.card details {
+    width:300px;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+}
+
+@media(max-width:768px){
+    .card details{
+        width:100%;
+    }
+}
+
+.card details summary {
+    font-size: 18px;
+    padding:10px;
+}
+
+@media(max-width:768px){
+    .card details summary{
+        font-size: 16px;
+    }
+}
+
+.card details p {
+    padding: 0 10px;
+}
+
+@media(max-width:768px){
+    .card details p {
+        font-size: 14px;
+    }
+}
+
+.card details blockquote {
+    color: #6B00B0;
+    font-style: italic;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    color: #6B00B0;
+    font-family: "candara";
+    font-size: 15px;
+    font-weight: bold;
+  }
