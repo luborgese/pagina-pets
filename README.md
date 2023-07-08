@@ -1,6 +1,6 @@
 <span align="center">
-  <div align="center">
-  <img src="https://github.com/luborgese/pagina-pets/assets/136857720/b2e8555b-39e4-42b8-81ad-17f9e56f330f" width ="300px" />
+  <div>
+    <img src="https://github.com/luborgese/pagina-pets/assets/136857720/b2e8555b-39e4-42b8-81ad-17f9e56f330f" width ="300px" />
   </div>
   <h1>Página Autoral - Pets para Adoção</h1>
 </span>
